@@ -2,5 +2,9 @@ var myName = "Maggie";
 
 const numberStates = 50;
 
-console.log(myName + ' ' + numberStates);
+myName.numberStates
 //addin my name and number of states
+
+function sayHello() {
+    alert("Hello World!");
+}
