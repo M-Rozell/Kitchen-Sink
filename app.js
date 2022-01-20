@@ -2,7 +2,7 @@
 
 //const numberStates = 50;
 
-//myName.numberStates
+//console.log(myName + numberStates);
 //addin my name and number of states
 
 function sayHello() {
@@ -19,10 +19,17 @@ function checkAge(name,age) {
     if(age<21) {
         alert("Sorry " + name + ", you're not allowed to view this page!");
     }
- 
-}   
-
+};   
 console.log(checkAge());
+
+var veggies=['Brussles', 'Broccoli', 'Peas', 'Asparagus'];
+var count = 0;
+while(count<veggies.length) {
+    console.log(veggies[count]);
+    count++;
+}
+
+
 
  
       
