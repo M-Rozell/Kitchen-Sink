@@ -2,8 +2,10 @@ var myName = "Maggie";
 
 const numberStates = 50;
 
-var nameNumber=(myName + numberStates);
-//addin my name and number of states
+var num=(4+5);
+console.log(num);
+
+//addin 4 + 5
 
 function sayHello() {
     alert("Hello World!");
@@ -32,7 +34,8 @@ var pet = {
     name: "Oliver",
     breed: "Feral",
 }
-console.log(pet);
+console.log(pet.name,pet.breed);
+
 
  
 var myArray = [
@@ -49,7 +52,7 @@ var myArray = [
         age: 19
     },
     {name: 'Zach',
-        age: 20
+        age: 22
     }
     
 ];
